@@ -1,0 +1,13 @@
+train: .dataset/train/images
+val: .dataset/valid/images
+test: .dataset/test/images
+
+nc: 1
+names: ['Faces']
+
+roboflow:
+  workspace: david-tingey-vokll
+  project: face-detection-0slkc
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/david-tingey-vokll/face-detection-0slkc/dataset/2
